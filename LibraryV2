@@ -184,8 +184,6 @@ function MakeNotifi(Configs)
     end
   end)
 end
-
-function MakeWindow(Configs)
   
   local KeySystem = Configs.Key.KeySystem or false
   local KeyTitle = Configs.Key.Title or "Key System"
