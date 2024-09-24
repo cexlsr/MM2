@@ -97,10 +97,7 @@ local ListLayout = Create("UIListLayout", Menu_Notifi, {
   VerticalAlignment = "Bottom"
 })
 
-function MakeNotifi(Configs)
-  local Title = Configs.Title or "Demi's HUB 2"
-  local text = Configs.Text or "Notificação"
-  local timewait = Configs.Time or 5
+
   
   local Frame1 = Create("Frame", Menu_Notifi, {
     Size = UDim2.new(2, 0, 0, 0),
