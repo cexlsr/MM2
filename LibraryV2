@@ -188,7 +188,7 @@ function MakeNotifi(Configs)
   end)
 end
 
-
+function MakeWindow(Configs)
   local title = Configs.Hub.Title or "REDz HUB"
   local Anim_Title = Configs.Hub.Animation or "by : redz9999"
   
