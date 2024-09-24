@@ -102,7 +102,7 @@ local ListLayout = Create("UIListLayout", Menu_Notifi, {
 })
 
 function MakeNotifi(Configs)
-  local Title = Configs.Title or "DICK HUB"
+  local Title = Configs.Title or "REDz HUB"
   local text = Configs.Text or "Notificação"
   local timewait = Configs.Time or 5
   
