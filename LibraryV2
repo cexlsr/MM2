@@ -70,9 +70,6 @@ local function TextSetColor(instance)
   end)
 end
 
-local ScreenGui = Create("ScreenGui", CoreGui, {
-  Name = "REDz HUB library"
-})
 
 function DestroyScript()
   ScreenGui:Destroy()
