@@ -186,8 +186,6 @@ function MakeNotifi(Configs)
 end
 
 function MakeWindow(Configs)
-  local title = Configs.Hub.Title or "Demi's Hub"
-  local Anim_Title = Configs.Hub.Animation or "by : redz9999"
   
   local KeySystem = Configs.Key.KeySystem or false
   local KeyTitle = Configs.Key.Title or "Key System"
