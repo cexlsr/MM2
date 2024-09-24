@@ -97,14 +97,12 @@ local ListLayout = Create("UIListLayout", Menu_Notifi, {
   VerticalAlignment = "Bottom"
 })
 
-
+function MakeNotifi(Configs)
+  local Title = Configs.Title or "Demi's HUB 2"
+  local text = Configs.Text or "Notificação"
+  local timewait = Configs.Time or 5
   
-  local Frame1 = Create("Frame", Menu_Notifi, {
-    Size = UDim2.new(2, 0, 0, 0),
-    BackgroundTransparency = 1,
-    AutomaticSize = "Y",
-    Name = "Title"
-  })
+
   
   local Frame2 = Create("Frame", Frame1, {
     Size = UDim2.new(0, Menu_Notifi.Size.X.Offset - 50, 0, 0),
@@ -181,6 +179,10 @@ local ListLayout = Create("UIListLayout", Menu_Notifi, {
     end
   end)
 end
+
+function MakeWindow(Configs)
+  local title = Configs.Hub.Title or "Demi's Hub"
+  local Anim_Title = Configs.Hub.Animation or "by : redz9999"
   
   local KeySystem = Configs.Key.KeySystem or false
   local KeyTitle = Configs.Key.Title or "Key System"
