@@ -1,3 +1,18 @@
+logo
+Answer
+more
+Copy
+Explain it
+Summarise
+Translate
+Grammar checker
+Disable
+up
+Disable until next visit
+Disable for this page
+Disable for this website
+Disable globally
+You can re-enable in setting
 local Configs_HUB = {
   Cor_Hub = Color3.fromRGB(15, 15, 15),
   Cor_Options = Color3.fromRGB(15, 15, 15),
@@ -332,6 +347,29 @@ function MakeWindow(Configs)
     Draggable = true
   })Corner(Menu)
   
+  local TopBar = Create("Frame", Menu, {
+    BackgroundTransparency = 1,
+    Size = UDim2.new(1, 0, 0, 25),
+    Visible = false
+  })
+  
+  local ButtonsFrame = Create("Frame", TopBar, {
+    Size = UDim2.new(0, 40, 1, -5),
+    Position = UDim2.new(1, -10, 0, 2.5),
+    AnchorPoint = Vector2.new(1, 0),
+    BackgroundTransparency = 1
+  })
+  
+  local Title = Create("TextLabel", TopBar, {
+    Size = UDim2.new(1, 0, 1, 0),
+    Position = UDim2.new(0, 20, 0, 0),
+    TextColor3 = Configs_HUB.Cor_Text,
+    Font = Configs_HUB.Text_Font,
+    TextXAlignment = "Left",
+    Text = title,
+    TextSize = 20,
+    BackgroundTransparency = 1
+  })
   
   local Minimize_BTN = Create("TextButton", ButtonsFrame, {
     Text = "-",
@@ -1604,5 +1642,22 @@ function MakeWindow(Configs)
   return Menu
 end
 
-
-
+MakeWindow({
+  Hub = {
+    Title = "Demi's Hub || Flee The Facility",
+    Animation = "by 4253 On Discord"
+  },
+  Key = {
+    KeySystem = true,
+    Title = "Key System",
+    Description = "By Ewerton99",
+    KeyLink = "ILoveMeowBah",
+    Keys = {"beep"},
+    Notifi = {
+      Notifications = true,
+      CorrectKey = "Running the Script...",
+      Incorrectkey = "The key is incorrect",
+      CopyKeyLink = "Copied to Clipboard"
+    }
+  }
+})
