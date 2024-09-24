@@ -1,18 +1,3 @@
-logo
-Answer
-more
-Copy
-Explain it
-Summarise
-Translate
-Grammar checker
-Disable
-up
-Disable until next visit
-Disable for this page
-Disable for this website
-Disable globally
-You can re-enable in setting
 local Configs_HUB = {
   Cor_Hub = Color3.fromRGB(15, 15, 15),
   Cor_Options = Color3.fromRGB(15, 15, 15),
@@ -1641,12 +1626,4 @@ function MakeWindow(Configs)
   end
   return Menu
 end
-question-ai-logo
-useruser
-fullfull
-closeclose
-Chat AI
-Hello! Is there any question I can help you with?
-Which iconic American landmark is located in South Dakota and features the faces of four U.S. presidents?
-What can you do?
-Ask AI
+
