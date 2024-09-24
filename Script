@@ -338,24 +338,6 @@ function MakeWindow(Configs)
     Visible = false
   })
   
-  local ButtonsFrame = Create("Frame", TopBar, {
-    Size = UDim2.new(0, 40, 1, -5),
-    Position = UDim2.new(1, -10, 0, 2.5),
-    AnchorPoint = Vector2.new(1, 0),
-    BackgroundTransparency = 1
-  })
-  
-  local Title = Create("TextLabel", TopBar, {
-    Size = UDim2.new(1, 0, 1, 0),
-    Position = UDim2.new(0, 20, 0, 0),
-    TextColor3 = Configs_HUB.Cor_Text,
-    Font = Configs_HUB.Text_Font,
-    TextXAlignment = "Left",
-    Text = title,
-    TextSize = 20,
-    BackgroundTransparency = 1
-  })
-  
   local Minimize_BTN = Create("TextButton", ButtonsFrame, {
     Text = "-",
     TextColor3 = Configs_HUB.Cor_Text,
