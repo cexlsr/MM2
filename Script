@@ -1563,8 +1563,8 @@ MakeWindow({
   Key = {
     KeySystem = true,
     Title = "Key System",
-    Description = "By Ewerton99",
-    KeyLink = "ILoveMeowBah",
+    Description = "By Demi(@4253)",
+    KeyLink = "Discord.gg/",
     Keys = {"beep"},
     Notifi = {
       Notifications = true,
