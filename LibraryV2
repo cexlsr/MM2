@@ -533,7 +533,7 @@ function MakeWindow(Configs)
       Position = UDim2.new(0.15, 0, 0.15, 0),
       BackgroundColor3 = color,
       Image = image,
-      Active = true,
+      Active = false,
       Draggable = true
     })if corner then Corner(Button) end if stroke then Stroke(Button, {Color = strokecolor}) end
     
@@ -794,7 +794,7 @@ function MakeWindow(Configs)
       AnchorPoint = Vector2.new(0.5, 0.5),
       BackgroundColor3 = Configs_HUB.Cor_Hub,
       Draggable = true,
-      Active = true,
+      Active = false,
       Visible = visible
     })Corner(Toggle_Atalho)
     
