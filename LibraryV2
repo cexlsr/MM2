@@ -69,9 +69,6 @@ local function TextSetColor(instance)
   end)
 end
 
-local ScreenGui = Create("ScreenGui", CoreGui, {
-  Name = "Demi's HUB 3 library"
-})
 
 ScreenFind = CoreGui:FindFirstChild(ScreenGui.Name)
 if ScreenFind and ScreenFind ~= ScreenGui then
