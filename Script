@@ -325,13 +325,6 @@ function MakeWindow(Configs)
     KeyMenu:Destroy()
   end
   
-  local Menu = Create("Frame", ScreenGui, {
-    BackgroundColor3 = Configs_HUB.Cor_Hub,
-    Position = UDim2.new(0.5, -500/2, 0.5, -270/2),
-    Active = true,
-    Draggable = true
-  })Corner(Menu)
-  
   local TopBar = Create("Frame", Menu, {
     BackgroundTransparency = 0,
     Size = UDim2.new(1, 0, 0, 25),
