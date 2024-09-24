@@ -1,3 +1,18 @@
+logo
+Answer
+more
+Copy
+Explain it
+Summarise
+Translate
+Grammar checker
+Disable
+up
+Disable until next visit
+Disable for this page
+Disable for this website
+Disable globally
+You can re-enable in setting
 local Configs_HUB = {
   Cor_Hub = Color3.fromRGB(15, 15, 15),
   Cor_Options = Color3.fromRGB(15, 15, 15),
@@ -70,7 +85,7 @@ local function TextSetColor(instance)
 end
 
 local ScreenGui = Create("ScreenGui", CoreGui, {
-  Name = "Demi's HUB 3 library"
+  Name = "REDz HUB library"
 })
 
 ScreenFind = CoreGui:FindFirstChild(ScreenGui.Name)
@@ -101,7 +116,7 @@ local ListLayout = Create("UIListLayout", Menu_Notifi, {
 })
 
 function MakeNotifi(Configs)
-  local Title = Configs.Title or "Demi's HUB 2"
+  local Title = Configs.Title or "REDz HUB"
   local text = Configs.Text or "Notificação"
   local timewait = Configs.Time or 5
   
@@ -189,7 +204,7 @@ function MakeNotifi(Configs)
 end
 
 function MakeWindow(Configs)
-  local title = Configs.Hub.Title or "Demi's Hub"
+  local title = Configs.Hub.Title or "REDz HUB"
   local Anim_Title = Configs.Hub.Animation or "by : redz9999"
   
   local KeySystem = Configs.Key.KeySystem or false
@@ -1626,3 +1641,12 @@ function MakeWindow(Configs)
   end
   return Menu
 end
+question-ai-logo
+useruser
+fullfull
+closeclose
+Chat AI
+Hello! Is there any question I can help you with?
+Which iconic American landmark is located in South Dakota and features the faces of four U.S. presidents?
+What can you do?
+Ask AI
