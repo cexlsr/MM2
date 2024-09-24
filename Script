@@ -509,14 +509,6 @@ function MakeWindow(Configs)
     local stroke = Configs.Stroke or false
     local strokecolor = Configs.StrokeColor or Configs_HUB.Cor_Stroke
     
-    local Button = Create("ImageButton", ScreenGui, {
-      Size = UDim2.new(0, size[1], 0, size[2]),
-      Position = UDim2.new(0.15, 0, 0.15, 0),
-      BackgroundColor3 = color,
-      Image = image,
-      Active = true,
-      Draggable = true
-    })if corner then Corner(Button) end if stroke then Stroke(Button, {Color = strokecolor}) end
     
     local minimize = false
     Button.MouseButton1Click:Connect(function()
