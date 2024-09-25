@@ -14,8 +14,8 @@
 getgenv().Time = 1 -- Adjust the time waited before adding the items
 
 getgenv().Head = {
-    74891470,
-    553970606,
+    74891470 ,
+    553970606 ,
     -- more head accessory IDs
 }
 
